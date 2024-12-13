@@ -6,13 +6,7 @@
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
-        "runtime": "python3.10",
-        "aptPackages": [
-          "libpango-1.0-0",
-          "libpangoft2-1.0-0",
-          "libpangocairo-1.0-0",
-          "libcairo2"
-        ]
+        "runtime": "python3.10"
       }
     }
   ],
